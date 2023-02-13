@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.lemonade
+package com.tsm.lemonade
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -32,7 +32,8 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
-import com.example.lemonade.DrawableMatcher.withDrawable
+import com.example.lemonade.R
+import com.tsm.lemonade.DrawableMatcher.withDrawable
 import org.hamcrest.Description
 import org.hamcrest.Matcher
 import org.junit.Rule
